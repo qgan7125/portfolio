@@ -11,6 +11,12 @@ on:
 permissions: 
   contents: write
 
+env:
+  REACT_APP_SERVICE_ID: ${{ secrets.REACT_APP_SERVICE_ID }}
+  REACT_APP_TEMPLATE_ID: ${{ secrets.REACT_APP_TEMPLATE_ID }}
+  REACT_APP_TEMPLATE_ID_OWNER: ${{ secrets.REACT_APP_TEMPLATE_ID_OWNER }}
+  REACT_APP_PUBLIC_KEY: ${{ secrets.REACT_APP_PUBLIC_KEY }}
+
 jobs:
   build-and-deploy:
     concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.

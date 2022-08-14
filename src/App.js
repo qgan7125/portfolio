@@ -7,7 +7,7 @@ import Projects from "./components/projects";
 import Contact from "./components/contact";
 import SideBar from "./components/sidebar";
 import Footer from "./components/footer";
-import MouseParticles from 'react-mouse-particles'
+import MouseParticles from 'react-mouse-particles';
 
 function App() {
   useEffect(() => {

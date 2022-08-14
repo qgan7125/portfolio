@@ -2,27 +2,27 @@
     "projects": [
         {
             "name": "iSamples",
-            "src": "assets/isamples.png",
+            "src": "/assets/isamples.png",
             "description": "The Internet of Samples (iSamples) is a multi-disciplinary and multi-institutional project funded by the National Science Foundation. Deployed React, redux, Cesium to achieve large scale data search and 3D visualization."
         },
         {
             "name": "50 Small Project in React",
-            "src": "assets/50SmallProjects.png",
+            "src": "/assets/50SmallProjects.png",
             "description": "This personal project implements 50 small projects to achieve some front-end features by React, Typescript, Sass."
         },
         {
             "name": "Movie App",
-            "src": "assets/moveApp.png",
+            "src": "/assets/moveApp.png",
             "description": "Search the latest movie information and add favorite movie to the wish list by react, redux-toolkit, and Sass."
         },
         {
             "name": "Online Dashboard",
-            "src": "assets/freedomOD.png",
+            "src": "/assets/freedomOD.png",
             "description": "Online Dashboard for users to view their information. Used Redux to manage both data-state and UI-state in the web application for easier tracing changes caused by actions respectively."
         },
         {
             "name": "Flexible Spending Accounts",
-            "src": "assets/Season_Share.png",
+            "src": "/assets/Season_Share.png",
             "description": "Developed the user interface using Javascript(ES6), SASS, ReactJS, Redux, and ReactRouter. allows users to allocate both existing and new account credit towards future events, experiences, and merchandise."
         }
     ]

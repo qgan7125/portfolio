@@ -1,0 +1,24 @@
+.navbar {
+    transform: translateY(352px);
+    padding-right: 10px;
+    background-color: var(--color-bg);
+    z-index: 2;
+    border-bottom: 1px solid rgba(13, 110, 253, 0.6);
+}
+
+.nav {
+    gap: 20px;
+}
+
+#navbar-toggler {
+    display: none;
+}
+
+.nav .nav-link {
+    color: var(--color-text);
+    cursor: var(--img-cursor-click);
+}
+
+.nav .nav-link:hover {
+    opacity: 0.7;
+}

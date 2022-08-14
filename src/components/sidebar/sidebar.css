@@ -1,0 +1,45 @@
+.siderBar__container {
+    position: sticky;
+    left: 0;
+    top: 60%;
+    z-index: 15;
+    margin-right: 0;
+    display: flex;
+    color: var(--color-text);
+    width: 330px;
+    transform: translateX(-330px);
+    transition: transform 0.5s ease-in-out;
+    padding: 30px 30px 30px 0;
+    background-color: rgb(148, 210, 245);
+}
+
+.siderBar__container:hover {
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.siderBar__info ul {
+    margin: 0;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-right: 30px;
+}
+
+.siderBar__info ul a {
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.siderBar__container img {
+    width: 50px;
+}
+
+.siderBar__container .sideImage {
+    width: 200px;
+    transform: rotateY(180deg) translateX(55px);
+}

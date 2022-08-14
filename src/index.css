@@ -1,13 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Alfa Slab One", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+  user-select: none;
+  color: var(--color-text);
+}
+
+:root {
+  --color-text: rgb(84, 79, 79);
+  --color-bg: #EEE1D1;
+  --color-nav: #e9d1b3d7;
+  --img-cursor: url("./assets/cursor_normal.png"), auto;
+  --img-cursor-click: url("./assets/cursor-click.png"), auto;
+}
+
+html {
+  margin: 0;
+}
+
+body {
+  position: relative;
+  background-color: var(--color-bg);
+  cursor: var(--img-cursor);
+}
+
+button {
+  cursor: var(--img-cursor-click);
 }

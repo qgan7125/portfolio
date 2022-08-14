@@ -1,0 +1,244 @@
+{
+    "intro": {
+        "fullScreen": false,
+        "background": {
+            "color": {
+                "value": "transparent"
+            }
+        },
+        "fpsLimit": 120,
+        "interactivity": {
+            "events": {
+                "onClick": {
+                    "enable": true,
+                    "mode": [
+                        "push",
+                        "remove"
+                    ]
+                },
+                "onHover": {
+                    "enable": true,
+                    "mode": "repulse"
+                },
+                "resize": true
+            },
+            "modes": {
+                "push": {
+                    "quantity": 1
+                },
+                "remove": {
+                    "quantity": 1
+                },
+                "repulse": {
+                    "distance": 100,
+                    "duration": 0.3
+                }
+            }
+        },
+        "particles": {
+            "number": {
+                "value": 10,
+                "density": {
+                    "enable": true,
+                    "value_area": 800
+                }
+            },
+            "line_linked": {
+                "enable": true
+            },
+            "move": {
+                "directions": "none",
+                "enable": true,
+                "outModes": {
+                    "default": "bounce"
+                },
+                "random": false,
+                "speed": 6,
+                "straight": false
+            },
+            "shape": {
+                "type": [
+                    "image"
+                ],
+                "image": [
+                    {
+                        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+                        "height": 20,
+                        "width": 23
+                    },
+                    {
+                        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+                        "height": 20,
+                        "width": 20
+                    },
+                    {
+                        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+                        "height": 20,
+                        "width": 20
+                    },
+                    {
+                        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+                        "height": 20,
+                        "width": 20
+                    },
+                    {
+                        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+                        "height": 20,
+                        "width": 20
+                    },
+                    {
+                        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+                        "height": 20,
+                        "width": 20
+                    },
+                    {
+                        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+                        "height": 20,
+                        "width": 20
+                    }
+                ]
+            },
+            "color": {
+                "value": "#CCC"
+            },
+            "size": {
+                "value": 30,
+                "random": false,
+                "anim": {
+                    "enable": true,
+                    "speed": 4,
+                    "size_min": 10,
+                    "sync": false
+                }
+            },
+            "opacity": {
+                "value": 0.7
+            }
+        },
+        "detectRetina": true
+    },
+    "mouse": {
+        "fullScreen": {
+            "enable": false,
+            "zIndex": 0
+        },
+        "fpsLimit": 60,
+        "particles": {
+            "number": {
+                "value": 0,
+                "density": {
+                    "enable": true,
+                    "value_area": 800
+                }
+            },
+            "color": {
+                "value": "#ff0000",
+                "animation": {
+                    "enable": true,
+                    "speed": 180,
+                    "sync": true
+                }
+            },
+            "shape": {
+                "type": "circle",
+                "stroke": {
+                    "width": 0,
+                    "color": "#000000"
+                },
+                "polygon": {
+                    "nb_sides": 5
+                },
+                "image": {
+                    "src": "https://cdn.matteobruni.it/images/particles/github.svg",
+                    "width": 100,
+                    "height": 100
+                }
+            },
+            "opacity": {
+                "value": 0.5,
+                "random": false,
+                "anim": {
+                    "enable": false,
+                    "speed": 3,
+                    "opacity_min": 0.1,
+                    "sync": false
+                }
+            },
+            "size": {
+                "value": 15,
+                "random": {
+                    "enable": true,
+                    "minimumValue": 5
+                },
+                "animation": {
+                    "enable": true,
+                    "speed": 5,
+                    "minimumValue": 5,
+                    "sync": true,
+                    "startValue": "min",
+                    "destroy": "max"
+                }
+            },
+            "links": {
+                "enable": false
+            },
+            "move": {
+                "enable": true,
+                "speed": 3.5,
+                "direction": "none",
+                "random": false,
+                "straight": false,
+                "outMode": "destroy",
+                "attract": {
+                    "enable": false,
+                    "rotateX": 600,
+                    "rotateY": 1200
+                }
+            }
+        },
+        "interactivity": {
+            "detectsOn": "window",
+            "events": {
+                "onhover": {
+                    "enable": true,
+                    "mode": "trail"
+                },
+                "onclick": {
+                    "enable": true,
+                    "mode": "push"
+                },
+                "resize": true
+            },
+            "modes": {
+                "grab": {
+                    "distance": 400,
+                    "line_linked": {
+                        "opacity": 1
+                    }
+                },
+                "bubble": {
+                    "distance": 400,
+                    "size": 40,
+                    "duration": 2,
+                    "opacity": 0.8,
+                    "speed": 3
+                },
+                "repulse": {
+                    "distance": 200
+                },
+                "push": {
+                    "particles_nb": 4
+                },
+                "remove": {
+                    "particles_nb": 2
+                },
+                "trail": {
+                    "delay": 0.005,
+                    "quantity": 5,
+                    "pauseOnStop": true
+                }
+            }
+        },
+        "retina_detect": true
+    }
+}

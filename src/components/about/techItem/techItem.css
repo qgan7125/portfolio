@@ -1,0 +1,37 @@
+.techItem__container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 180px;
+    margin-bottom: 5px;
+    background-color: #F9FAFB;
+    padding: 10px;
+    border-radius: 10%;
+    font-size: 0.8em;
+}
+
+.techItem__container img {
+    width: 50px;
+}
+
+.techItem__animation {
+    animation: items 1s ease-in-out;
+}
+
+@keyframes items {
+    0% {
+        transform: translateY(100px);
+    }
+
+    25% {
+        transform: translateY(-20px);
+    }
+
+    70% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

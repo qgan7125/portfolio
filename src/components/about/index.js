@@ -1,13 +1,42 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import tech from "./tech.json";
 import TechItem from './techItem';
 import avatar from "../../assets/avatar.JPG";
+import spaceman from "../../assets/spaceman.png";
 import "./about.css";
 
 const About = () => {
 
+    const aboutRef = useRef();
+    const [enter, setEnter] = useState(false);
+
+    useEffect(() => {
+        const options = {
+            threshold: 0.2
+        }
+
+        const handleIntersection = (e) => {
+            const target = e[0];
+            if(target.isIntersecting){
+                setEnter(true);
+            }else{
+                setEnter(false);
+            }
+        }
+        const ob = new IntersectionObserver(handleIntersection, options);
+
+        if(aboutRef.current) {
+            ob.observe(aboutRef.current);
+        }
+
+        return () => {
+            ob.disconnect();
+        }
+    }, [])
+
     return (
-        <section id="AboutSection" className='about__container'>
+        <section id="AboutSection" className='about__container' ref={aboutRef}>
+            <img className={"spaceman " + (enter ? "active" : "")} src={spaceman} alt="spaceman" />
             <h1>About Me</h1>
             <figure>
                 <img className='avatar' src={avatar} alt="Matthew Gan" />

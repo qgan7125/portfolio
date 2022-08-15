@@ -2,7 +2,7 @@
     max-width: 1280px;
     margin: auto;
     display: flex;
-    padding: 100px 24px 0 24px;
+    padding: 150px 24px 0 24px;
     flex-direction: column;
     font-size: 1.25em;
     position: relative;
@@ -43,5 +43,18 @@ figure {
     width: 250px;
     border-radius: 50%;
     box-shadow: 0 0.7rem 0.7rem rgb(43 52 56 / 15%)
+}
+
+.spaceman {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(600px)  translateY(200px);
+    width: 300px;
+}
+
+.spaceman.active {
+    transform: translateX(100px) translateY(200px);
+    transition: transform 1s linear;
 }
 

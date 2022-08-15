@@ -1,10 +1,11 @@
 footer {
     background-color: #f4e6d4;
-    height: 150px;
+    height: 160px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    border-top: 3px solid black;
 }
 
 .btn__scrollTop {
@@ -19,9 +20,32 @@ footer {
     align-items: center;
     color: white;
     font-size: 1.5em;
+    z-index: 10;
 }
 
 footer small {
     color: red;
     margin: 0 5px;
 }
+
+.pets {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: -1;
+    animation: pets 1s ease-in-out;
+    transform: translateY(100px);
+}
+
+@keyframes pets {
+    75% {
+        transform: translateY(-20px);
+        z-index: -1;
+    }
+    
+    100% {
+        transform: translateY(0);
+        z-index: 1;
+    }
+}
+

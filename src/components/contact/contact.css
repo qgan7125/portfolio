@@ -9,6 +9,7 @@
     flex-direction: column;
     height: 50vh;
     padding-top: 200px;
+    margin-bottom: 10%;
 }
 
 #ContactSection form {

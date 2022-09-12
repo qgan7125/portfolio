@@ -63,6 +63,22 @@
         {
             "name": "fastApi",
             "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
+        },
+        {
+            "name": "Jest",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+        },
+        {
+            "name": "Npm",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
+        },
+        {
+            "name": "MySQL",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+        },
+        {
+            "name": "Express",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
         }
     ]
 }

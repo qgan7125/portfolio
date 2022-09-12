@@ -4,6 +4,7 @@ import "./projects.css";
 
 const Projects = () => {
     const [expanded, setExpanded] = useState(projects.projects[0].name);
+    // const []
 
     const handleClick = (e) => {
         const name = e.currentTarget.getAttribute("name");

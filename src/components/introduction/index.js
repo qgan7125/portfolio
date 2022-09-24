@@ -18,7 +18,7 @@ const Introduction = () => {
             <ParticlesComponents />
             <div className='home__contents'>
                 <div className='introduction__title'>
-                    Hello, I'm <span className="text-primary">Matthew Gan</span> <br />
+                    Hello, I'm <span className="text-primary">Quan Gan</span> <br />
                     I'm <AutoTexEffect text={roles} />
                 </div>
                 <button onClick={handleView}>View My Work <img className='arrowright' src={ArrowRight} alt="arrow right" /> </button>

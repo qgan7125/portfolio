@@ -6,10 +6,10 @@
     margin-right: 0;
     display: flex;
     color: var(--color-text);
-    width: 330px;
-    transform: translateX(-330px);
+    width: 350px;
+    transform: translateX(-350px);
     transition: transform 0.5s ease-in-out;
-    padding: 30px 30px 30px 0;
+    padding: 20px;
     background-color: rgb(148, 210, 245);
 }
 
@@ -21,18 +21,21 @@
 
 .siderBar__info ul {
     margin: 0;
+    padding: 0;
     height: 100%;
     list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-    padding-right: 30px;
+    padding-right: 22px;
 }
 
 .siderBar__info ul a {
     text-decoration: none;
     color: var(--color-text);
+    display: flex;
+    align-items: center;
 }
 
 .siderBar__container img {

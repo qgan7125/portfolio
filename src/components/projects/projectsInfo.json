@@ -3,27 +3,20 @@
         {
             "name": "iSamples",
             "src": "/assets/isamples.png",
-            "description": "The Internet of Samples (iSamples) is a multi-disciplinary and multi-institutional project funded by the National Science Foundation. Deployed React, redux, Cesium to achieve large scale data search and 3D visualization."
+            "description": "The Internet of Samples (iSamples) is a multi-disciplinary and multi-institutional project funded by the National Science Foundation. Deployed React, redux, Cesium to achieve large scale data search and 3D visualization.",
+            "url": "https://mars.cyverse.org/isamples_central/ui"
         },
         {
             "name": "50 Small Project in React",
             "src": "/assets/50SmallProjects.png",
-            "description": "This personal project implements 50 small projects to achieve some front-end features by React, Typescript, Sass."
+            "description": "This personal project implements 50 small projects to achieve some front-end features by React, Typescript, Sass.",
+            "url": "https://qgan7125.github.io/50_frontend_project_react/"
         },
         {
             "name": "Movie App",
             "src": "/assets/moveApp.png",
-            "description": "Search the latest movie information and add favorite movie to the wish list by react, redux-toolkit, and Sass."
-        },
-        {
-            "name": "Online Dashboard",
-            "src": "/assets/freedomOD.png",
-            "description": "Online Dashboard for users to view their information. Used Redux to manage both data-state and UI-state in the web application for easier tracing changes caused by actions respectively."
-        },
-        {
-            "name": "Flexible Spending Accounts",
-            "src": "/assets/Season_Share.png",
-            "description": "Developed the user interface using Javascript(ES6), SASS, ReactJS, Redux, and ReactRouter. allows users to allocate both existing and new account credit towards future events, experiences, and merchandise."
+            "description": "Search the latest movie information and add favorite movie to the wish list by react, redux-toolkit, and Sass.",
+            "url": ""
         }
     ]
 }

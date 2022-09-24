@@ -75,7 +75,7 @@ const Footer = () => {
         <footer ref={footerRef}>
             {showPets}
             <button className='btn__scrollTop bg-primary' onClick={handlScrollTop}>&uarr;</button>
-            Made By <small>&hearts;</small> Matthew Gan
+            Made By <small>&hearts;</small> Quan Gan
         </footer>
     )
 }

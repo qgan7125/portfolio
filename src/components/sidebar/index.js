@@ -10,10 +10,10 @@ const SideBar = () => {
             <div className="siderBar__info">
                 <ul>
                     <li>
-                        <a href="mailto:matthew.gan.antra@gmail.com"><img src={envelope} alt="envelop" /> &nbsp; matthew.gan.antra@gmail.com</a>
+                        <a href="mailto:matthew.gan.antra@gmail.com"><img src={envelope} alt="envelop" /> &nbsp; gq12121@gmail.com</a>
                     </li>
                     <li>
-                        <img src={phone} alt="phone" />&nbsp; <br /> 520-510-0208
+                        <img src={phone} alt="phone" />&nbsp; <span>520-808-8018</span>
                     </li>
                     <li>
                         <a href="https://github.com/qgan7125" target='_blank' rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github" />&nbsp;https://github.com/qgan7125</a>

@@ -42,7 +42,7 @@ const About = () => {
                 <img className='avatar' src={avatar} alt="Matthew Gan" />
             </figure>
             <p>
-                I'm a React Front-End Developer for Antra. And I have experience in designing User Interface (UI) web applications
+                I'm a React Front-End Developer. My career goal is to become a full stack developer. I have experience in designing User Interface (UI) web applications
                 using HTML5, CSS3, JavaScript, TypeScript, Sass, jQuery, NodeJS, ReactJS, JSON, bootstrap, MaterialUI, MVC, Webpack, babel, and using version control like GIT.
             </p>
             <div>

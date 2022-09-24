@@ -28,7 +28,7 @@
 }
 
 .expanding__cards {
-    flex: 0.5;
+    flex: 1;
     cursor: var(--img-cursor-click);
     overflow: hidden;
     -webkit-transition: all 700ms ease-in;
@@ -64,6 +64,24 @@
 
 .project__info p {
     font-size: 15px;
+}
+
+.project__info button {
+    color: var(--color-text);
+    background-color: transparent;
+    padding: 10px;
+    width: 150px;
+    border: 2px solid rgb(84, 79, 79);
+    cursor: var(--img-cursor-click);
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-text);
+    cursor: var(--img-cursor-click);
 }
 
 .expanding__cards.active .project__info {

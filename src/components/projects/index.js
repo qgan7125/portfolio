@@ -27,6 +27,8 @@ const Projects = () => {
                                 <h4>{project.name}</h4>
                                 <p>
                                     {project.description}
+                                    {project.url ? <button><a href={project.url} target="_blank"
+                                        rel="noopener noreferrer">Project Link</a></button> : null}
                                 </p>
                             </div>
                         </div>
